@@ -12,7 +12,7 @@ A collection of my solutions/answers to solve Project Euler problems in Python.
 ## Solutions
 ### Problem 001
 ```py
-sum(x for x in range(1000) if (x % 3 == 0 or x % 5 == 0))
+sum(x for x in range(1000) if (x % 3 == 0 or x % 5 == 0))  # `generator` better list comp
 ```
 ### Problem 002
 ```py
